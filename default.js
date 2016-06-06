@@ -19666,7 +19666,7 @@
 	var Requirements_1 = __webpack_require__(236);
 	var Curriculum_1 = __webpack_require__(237);
 	Object.defineProperty(exports, "__esModule", { value: true });
-	exports.default = (React.createElement(react_router_1.Router, {history: react_router_1.browserHistory}, React.createElement(react_router_1.Route, {path: '/WebDev', component: App_1.default}, React.createElement(react_router_1.IndexRoute, {component: Home_1.default}), React.createElement(react_router_1.Route, {path: '/goals', component: Goals_1.default}), React.createElement(react_router_1.Route, {path: '/requirements', component: Requirements_1.default}), React.createElement(react_router_1.Route, {path: '/curriculum', component: Curriculum_1.default}))));
+	exports.default = (React.createElement(react_router_1.Router, {history: react_router_1.browserHistory}, React.createElement(react_router_1.Route, {path: '/WebDev', component: App_1.default}, React.createElement(react_router_1.IndexRoute, {component: Home_1.default}), React.createElement(react_router_1.Route, {path: 'goals', component: Goals_1.default}), React.createElement(react_router_1.Route, {path: 'requirements', component: Requirements_1.default}), React.createElement(react_router_1.Route, {path: 'curriculum', component: Curriculum_1.default}))));
 
 
 /***/ },
@@ -25892,7 +25892,7 @@
 	        _super.apply(this, arguments);
 	    }
 	    Navigation.prototype.render = function () {
-	        return (React.createElement("nav", null, React.createElement("h2", null, "Web Dev"), React.createElement(react_router_1.Link, {to: '/', activeClassName: 'active', onlyActiveOnIndex: true}, "Home"), React.createElement(react_router_1.Link, {to: '/goals', activeClassName: 'active'}, "Goals"), React.createElement(react_router_1.Link, {to: '/requirements', activeClassName: 'active'}, "Requirements"), React.createElement(react_router_1.Link, {to: '/Curriculum', activeClassName: 'active'}, "Curriculum")));
+	        return (React.createElement("nav", null, React.createElement("h2", null, "Web Dev"), React.createElement(react_router_1.Link, {to: '/WebDev', activeClassName: 'active', onlyActiveOnIndex: true}, "Home"), React.createElement(react_router_1.Link, {to: '/WebDev/goals', activeClassName: 'active'}, "Goals"), React.createElement(react_router_1.Link, {to: '/WebDev/requirements', activeClassName: 'active'}, "Requirements"), React.createElement(react_router_1.Link, {to: '/WebDev/curriculum', activeClassName: 'active'}, "Curriculum")));
 	    };
 	    return Navigation;
 	}(React.Component));
