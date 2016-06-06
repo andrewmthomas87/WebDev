@@ -19666,7 +19666,7 @@
 	var Requirements_1 = __webpack_require__(236);
 	var Curriculum_1 = __webpack_require__(237);
 	Object.defineProperty(exports, "__esModule", { value: true });
-	exports.default = (React.createElement(react_router_1.Router, {history: react_router_1.browserHistory}, React.createElement(react_router_1.Route, {path: '/', component: App_1.default}, React.createElement(react_router_1.IndexRoute, {component: Home_1.default}), React.createElement(react_router_1.Route, {path: '/goals', component: Goals_1.default}), React.createElement(react_router_1.Route, {path: '/requirements', component: Requirements_1.default}), React.createElement(react_router_1.Route, {path: '/curriculum', component: Curriculum_1.default}))));
+	exports.default = (React.createElement(react_router_1.Router, {history: react_router_1.browserHistory}, React.createElement(react_router_1.Route, {path: '/WebDev', component: App_1.default}, React.createElement(react_router_1.IndexRoute, {component: Home_1.default}), React.createElement(react_router_1.Route, {path: '/goals', component: Goals_1.default}), React.createElement(react_router_1.Route, {path: '/requirements', component: Requirements_1.default}), React.createElement(react_router_1.Route, {path: '/curriculum', component: Curriculum_1.default}))));
 
 
 /***/ },
